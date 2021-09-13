@@ -1,17 +1,18 @@
 
 
-nav{
+nav {
     height: 80px;
     width: 100%;
     background-color: white;
     border-bottom-color: black;
     border-bottom-width: 2px;
     border-bottom-style: solid;
-    box-shadow: 8px
-    position: fixed;
-    top: 0px;
+    box-shadow: 8px;
+    /* position: fixed;
+    top: 0px; */
 
 }
+   
 
 .boxForLogo{
     background-color: black;
@@ -29,45 +30,32 @@ nav{
 
 }
 
-.box1of4{
+.box {
     height: 200px;
     width: 200px;
     margin: 20px;
     position: absolute;
     background-color: white;
+}
+
+#box1{
     top: 100px;
     right: 10px;
 
 }
 
-.box2of4{
-    height: 200px;
-    width: 200px;
-    margin: 20px;
-    position: absolute;
-    background-color: white;
+#box2{
     bottom: 100px;
     right: 10px;
 
 
-
 }
-.box3of4{
-     height: 200px;
-     width: 200px;
-     margin: 20px;
-    position: absolute;
-    background-color: white;
+#box3{
     bottom: 100px
 
 
  }
-.box4of4{
-      height: 200px;
-      width: 200px;
-      margin: 20px;
-    background-color: white;
-    position: absolute;
+#box4{
     top: 100px;
 
 
