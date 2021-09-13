@@ -1,15 +1,17 @@
 
 
 nav{
+
     height: 80px;
     width: 100%;
     background-color: white;
     border-bottom-color: black;
     border-bottom-width: 2px;
     border-bottom-style: solid;
-    box-shadow: 8px
+    box-shadow: 8px;
     position: fixed;
     top: 0px;
+    z-index: 100;
 
 }
 
@@ -24,6 +26,7 @@ nav{
 
 }
 .container{
+
     height: 800px;
     background-color: grey;
 
